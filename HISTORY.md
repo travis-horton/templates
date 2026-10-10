@@ -4,6 +4,9 @@ Newest first, back to the project's first day.
 
 ## October 2026
 
+**templates #8: the project's past, written down** · [PR #8](https://github.com/travis-horton/templates/pull/8) · merged 26.1010.1210 · v1.0.1
+- Behind the scenes: the history file now covers every change from the project's first day (20.0214), not only those since 26.1010, numbered 0.1.0 through v0.1.1 so today's entry stays 1.0.0.
+
 **templates #7: security updates and a self-writing history** · [PR #7](https://github.com/travis-horton/templates/pull/7) · merged 26.1010.1150 · v1.0.0
 - **Security updates for the example server** · merged 26.1010.1150
   Behind the scenes: the example web server's building blocks (the web framework and the live-messaging library) were moved to versions that fix their known security problems, gathered from three waiting automatic update requests into one. The server still starts and serves its page the same way.
