@@ -1,6 +1,6 @@
 # templates — what changed, in plain words
 
-Newest first. Entries before the first one here are still to be written (the backfill).
+Newest first, back to the project's first day.
 
 ## October 2026
 
@@ -9,3 +9,16 @@ Newest first. Entries before the first one here are still to be written (the bac
   Behind the scenes: the example web server's building blocks (the web framework and the live-messaging library) were moved to versions that fix their known security problems, gathered from three waiting automatic update requests into one. The server still starts and serves its page the same way.
 - **History tool** · merged 26.1010.1150
   Behind the scenes: added the tool that writes a plain-language entry into this project's history file every time a change is accepted.
+
+## February 2020
+
+**Test-runner mentions removed** · [commit](https://github.com/travis-horton/templates/commit/2e090d4) · merged 20.0214.1951 · v0.1.1
+- Behind the scenes: the README no longer says the templates will support Jest (a tool for running automatic tests), and the starter list of files for git to ignore stopped naming Jest's settings file. Nothing else changed.
+
+**The templates begin** · [commit](https://github.com/travis-horton/templates/commit/d3bc0f9) · merged 20.0214.1507 · v0.1.0
+- **[Starter files](https://github.com/travis-horton/templates/commit/d3bc0f9)** · merged 20.0214.1507
+  New: three starting points to copy into a new project: a blank web page, a starter list of files git should leave out (installed libraries, settings files, logs, private settings), and a starter web server that serves a page on the standard web port.
+- **[Example server](https://github.com/travis-horton/templates/commit/d3bc0f9)** · merged 20.0214.1507
+  New: a complete tiny example project, "simple syrup": a web server that serves one page with a "click me" button, which pops up "you clicked the button".
+- **[Canvas sketchpad](https://github.com/travis-horton/templates/commit/d3bc0f9)** · merged 20.0214.1507
+  New: a script to paste into a browser's developer console that adds a 640 by 480 drawing canvas to the page, with helpers to fill it with one color and to draw a flat grid, single points and a 3-D grid. As written, only the fill helper works: the others look for the canvas under a different name, and the 3-D grid is marked as not working yet.
