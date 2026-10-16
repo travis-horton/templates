@@ -4,6 +4,9 @@ Newest first, back to the project's first day.
 
 ## October 2026
 
+**templates #12: Dependabot's updates merge themselves** · [PR #12](https://github.com/travis-horton/templates/pull/12) · merged 26.1016.1117 · v1.0.5
+- Behind the scenes: a new automatic job merges each library update from Dependabot as soon as it opens, then asks the change-log job to record it, so the updates keep landing without anyone clicking merge.
+
 **templates #10: Bump debug and socket.io in /simpleServer** · [PR #10](https://github.com/travis-horton/templates/pull/10) · merged 26.1016.0956 · v1.0.4
 - Behind the scenes: an automatic dependency update — "Bump debug and socket.io in /simpleServer".
 
