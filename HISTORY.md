@@ -4,6 +4,9 @@ Newest first, back to the project's first day.
 
 ## October 2026
 
+**templates #10: Bump debug and socket.io in /simpleServer** · [PR #10](https://github.com/travis-horton/templates/pull/10) · merged 26.1016.0956 · v1.0.4
+- Behind the scenes: an automatic dependency update — "Bump debug and socket.io in /simpleServer".
+
 **templates #9: Bump cookie and socket.io in /simpleServer** · [PR #9](https://github.com/travis-horton/templates/pull/9) · merged 26.1016.0956 · v1.0.3
 - Behind the scenes: an automatic dependency update — "Bump cookie and socket.io in /simpleServer".
 
